@@ -19,11 +19,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/sagit/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/xiaomi/sagit/proprietary/vendor/etc/calib.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/calib.cfg \
-    vendor/xiaomi/sagit/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
-    vendor/xiaomi/sagit/proprietary/etc/camera/imx268_chromatix.xml:system/etc/camera/imx268_chromatix.xml \
-    vendor/xiaomi/sagit/proprietary/etc/camera/imx386_semco_chromatix.xml:system/etc/camera/imx386_semco_chromatix.xml \
-    vendor/xiaomi/sagit/proprietary/etc/camera/s5k3m3_semco_chromatix.xml:system/etc/camera/s5k3m3_semco_chromatix.xml \
-    vendor/xiaomi/sagit/proprietary/etc/camera/sagit_imx268_liteon_chromatix.xml:system/etc/camera/sagit_imx268_liteon_chromatix.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/camera/imx268_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx268_chromatix.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/camera/imx386_semco_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx386_semco_chromatix.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/camera/s5k3m3_semco_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m3_semco_chromatix.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/camera/sagit_imx268_liteon_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sagit_imx268_liteon_chromatix.xml \
     vendor/xiaomi/sagit/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/xiaomi/sagit/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/xiaomi/sagit/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
