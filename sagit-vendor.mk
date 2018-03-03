@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/xiaomi/sagit/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/xiaomi/sagit/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/xiaomi/sagit/proprietary/vendor/etc/calib.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/calib.cfg \
     vendor/xiaomi/sagit/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/camera/imx268_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx268_chromatix.xml \
@@ -80,7 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/xiaomi/sagit/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/xiaomi/sagit/proprietary/lib/libGPTEE_system.so:system/lib/libGPTEE_system.so \
-    vendor/xiaomi/sagit/proprietary/lib/libMiCameraHal.so:system/lib/libMiCameraHal.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libMiCameraHal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiCameraHal.so \
     vendor/xiaomi/sagit/proprietary/lib/libQTEEConnector_system.so:system/lib/libQTEEConnector_system.so \
     vendor/xiaomi/sagit/proprietary/lib/libcalapi.so:system/lib/libcalapi.so \
     vendor/xiaomi/sagit/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
@@ -96,10 +96,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/xiaomi/sagit/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/xiaomi/sagit/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
-    vendor/xiaomi/sagit/proprietary/lib/libmorpho_group_portrait.so:system/lib/libmorpho_group_portrait.so \
-    vendor/xiaomi/sagit/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
-    vendor/xiaomi/sagit/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
-    vendor/xiaomi/sagit/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libmorpho_group_portrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_group_portrait.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_memory_allocator.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libmorpho_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_panorama.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_panorama_gp.so \
     vendor/xiaomi/sagit/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
     vendor/xiaomi/sagit/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
     vendor/xiaomi/sagit/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
@@ -109,7 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/lib/libsensor_calJNI.so:system/lib/libsensor_calJNI.so \
     vendor/xiaomi/sagit/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
     vendor/xiaomi/sagit/proprietary/lib/libsns_low_lat_stream_stub.so:system/lib/libsns_low_lat_stream_stub.so \
-    vendor/xiaomi/sagit/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/xiaomi/sagit/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
     vendor/xiaomi/sagit/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
     vendor/xiaomi/sagit/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
@@ -188,7 +188,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/bin/hbtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hbtp_daemon \
     vendor/xiaomi/sagit/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
     vendor/xiaomi/sagit/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
-    vendor/xiaomi/sagit/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
     vendor/xiaomi/sagit/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/xiaomi/sagit/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/xiaomi/sagit/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
@@ -252,7 +251,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/hbtp/hbtpcfg.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg.dat \
     vendor/xiaomi/sagit/proprietary/vendor/etc/hbtp/hbtpcfg2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg2.dat \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service.rc \
     vendor/xiaomi/sagit/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/sagit/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/xiaomi/sagit/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
