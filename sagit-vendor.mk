@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/etc/jdi_fhd_cmd_incell_dsi_panel_ct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/jdi_fhd_cmd_incell_dsi_panel_ct.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/privapp-permissions-com.qualcomm.location.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
@@ -264,6 +263,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/dpmapi.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/embms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/embms.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/izat.xt.srv.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
@@ -1133,17 +1133,17 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libthermalclient \
     libtime_genoff \
+    CNEService \
     QtiTelephonyService \
+    TimeService \
+    colorservice \
+    com.qualcomm.location \
     datastatusnotification \
+    dpmserviceapp \
     embms \
     ims \
     imssettings \
-    radioconfig \
-    CNEService \
-    com.qualcomm.location \
-    dpmserviceapp \
     qcrilmsgtunnel \
-    TimeService \
-    colorservice \
+    radioconfig \
     qcrilhook \
     vendor.qti.hardware.alarm-V1.0-java
