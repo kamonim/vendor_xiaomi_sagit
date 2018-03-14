@@ -39,23 +39,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/xiaomi/sagit/proprietary/vendor/firmware/tfa98xx_aac.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_aac.cnt \
     vendor/xiaomi/sagit/proprietary/vendor/firmware/tfa98xx_ssi.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_ssi.cnt \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/init/dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmd.rc \
     vendor/xiaomi/sagit/proprietary/vendor/etc/jdi_fhd_cmd_incell_dsi_panel_ct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/jdi_fhd_cmd_incell_dsi_panel_ct.xml \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/cneapiclient.xml \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.dpmframework.xml \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.location.sdk.xml \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.location.xml \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.quicinc.cne.xml \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.xiaomi.sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.xiaomi.sensor.xml \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/dpmapi.xml \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/embms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/embms.xml \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/privapp-permissions-com.qualcomm.location.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/QtiTelephonyServicelibrary.jar \
@@ -251,6 +239,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/etc/hbtp/hbtpcfg.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg.dat \
     vendor/xiaomi/sagit/proprietary/vendor/etc/hbtp/hbtpcfg2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg2.dat \
     vendor/xiaomi/sagit/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/init/dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmd.rc \
     vendor/xiaomi/sagit/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/xiaomi/sagit/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
     vendor/xiaomi/sagit/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
@@ -266,6 +255,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/etc/perf/perf-profile4.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile4.conf \
     vendor/xiaomi/sagit/proprietary/vendor/etc/perf/perf-profile5.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile5.conf \
     vendor/xiaomi/sagit/proprietary/vendor/etc/perf/perf-profile6.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile6.conf \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/cneapiclient.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.dpmframework.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.location.sdk.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.quicinc.cne.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.xiaomi.sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.xiaomi.sensor.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/dpmapi.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/embms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/embms.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/izat.xt.srv.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/sagit/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/sagit/proprietary/vendor/etc/thermal-engine-8998-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8998-high.conf \
