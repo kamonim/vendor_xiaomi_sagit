@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libQTEEConnector_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_system.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libcalapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalapi.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libdiag_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag_system.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libdisplayconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayconfig.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmctmgr.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libdpmfdmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmfdmgr.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libdpmframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmframework.so \
@@ -91,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libqti_performance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti_performance.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcc.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libsensor_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_cal.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libsensor_calJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_calJNI.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libsensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_test.so \
@@ -99,6 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libvendorconn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvendorconn.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libxt_native.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxt_native.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.0.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0.so \
@@ -126,6 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libQTEEConnector_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_system.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libcalapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalapi.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libdiag_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag_system.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/libdisplayconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayconfig.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmctmgr.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmfdmgr.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libdpmframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmframework.so \
@@ -143,6 +147,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libqti_performance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti_performance.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcc.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsensor_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_cal.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsensor_calJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_calJNI.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_test.so \
@@ -150,6 +155,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libvendorconn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendorconn.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libxt_native.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxt_native.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.0.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
