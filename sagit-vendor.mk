@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/bin/dpmd:$(TARGET_COPY_OUT_VENDOR)/bin/dpmd \
     vendor/xiaomi/sagit/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/MIUI_Time.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/MIUI_Time.ttf \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/age_gender_bg:$(TARGET_COPY_OUT_VENDOR)/etc/age_gender_bg \
     vendor/xiaomi/sagit/proprietary/vendor/etc/calib.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/calib.cfg \
     vendor/xiaomi/sagit/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/camera/imx268_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx268_chromatix.xml \
@@ -27,6 +29,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/andsfCne.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm/dpm.conf \
     vendor/xiaomi/sagit/proprietary/vendor/etc/dpm/nsrm/NsrmConfiguration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/dualcamera.png:$(TARGET_COPY_OUT_VENDOR)/etc/dualcamera.png \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/face_goodly_208_180:$(TARGET_COPY_OUT_VENDOR)/etc/face_goodly_208_180 \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/face_ravishing_238_224:$(TARGET_COPY_OUT_VENDOR)/etc/face_ravishing_238_224 \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/face_splendid_274_200:$(TARGET_COPY_OUT_VENDOR)/etc/face_splendid_274_200 \
     vendor/xiaomi/sagit/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/xiaomi/sagit/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
     vendor/xiaomi/sagit/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
@@ -40,11 +46,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/firmware/tfa98xx_aac.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_aac.cnt \
     vendor/xiaomi/sagit/proprietary/vendor/firmware/tfa98xx_ssi.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_ssi.cnt \
     vendor/xiaomi/sagit/proprietary/vendor/etc/jdi_fhd_cmd_incell_dsi_panel_ct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/jdi_fhd_cmd_incell_dsi_panel_ct.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/lf_facerank_model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/lf_facerank_model.bin \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/people_gender.dat:$(TARGET_COPY_OUT_VENDOR)/etc/people_gender.dat \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/privapp-permissions-com.qualcomm.location.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/watermark_font_2300_3199.dat \
     vendor/xiaomi/sagit/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/sagit/proprietary/vendor/framework/cneapiclient.jar:$(TARGET_COPY_OUT_VENDOR)/framework/cneapiclient.jar \
     vendor/xiaomi/sagit/proprietary/vendor/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.qti.dpmframework.jar \
@@ -66,9 +75,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvideocodec.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvtextutils.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvtutils.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libCameraEffectJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCameraEffectJNI.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libGPTEE_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPTEE_system.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libQTEEConnector_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_system.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libcalapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalapi.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libcamera2ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera2ndk.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libcamera_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_client.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libcamera_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_metadata.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libcameraservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameraservice.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libdiag_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag_system.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libdisplayconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayconfig.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmctmgr.so \
@@ -80,10 +94,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimscamera_jni.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsmedia_jni.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/liblocationservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocationservice_jni.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libminui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminui.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmorpho_group_portrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_group_portrait.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libmorpho_groupshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_groupshot.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_memory_allocator.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmorpho_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_panorama.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_panorama_gp.so \
@@ -98,6 +114,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libsensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_test.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libts_detected_face_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_jni.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libts_face_beautify_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_jni.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libvendorconn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvendorconn.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libxt_native.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxt_native.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
@@ -125,9 +143,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvt.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvtextutils.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvtutils.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCameraEffectJNI.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libGPTEE_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE_system.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libQTEEConnector_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_system.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libcalapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalapi.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/libcamera2ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera2ndk.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/libcamera_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_client.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/libcamera_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_metadata.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/libcameraservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameraservice.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libdiag_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag_system.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libdisplayconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayconfig.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmctmgr.so \
@@ -139,9 +162,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_jni.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/libminui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminui.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmrtpdecoder.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmrtpencoder.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/libmorpho_group_portrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_group_portrait.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/libmorpho_groupshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_groupshot.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libqminvapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqminvapi.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client_system.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libqti_performance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti_performance.so \
@@ -152,6 +178,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsensor_calJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_calJNI.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_test.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libvendorconn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendorconn.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libxt_native.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxt_native.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
@@ -843,6 +870,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspl.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
